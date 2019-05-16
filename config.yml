@@ -1,20 +1,10 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: yes
+configure_dotfiles: no
 configure_sudoers: yes
 configure_terminal: yes
-configure_osx: yes
-
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/dotfiles
-dotfiles_files:
-  - .bash_profile
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
+configure_osx: no
 
 homebrew_installed_packages:
   - autoconf
@@ -122,7 +112,6 @@ mas_installed_apps: []
 mas_email: ""
 mas_password: ""
 
-osx_script: "~/.osx --no-restart"
 
 # Dockutil
 dockitems_to_remove:
