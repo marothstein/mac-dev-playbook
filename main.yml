@@ -34,6 +34,12 @@
       when: configure_osx
       tags: ['osx']
 
+    - include: tasks/elixir.yml
+      tags: ['elixir']
+
+    - include: tasks/dockutil.yml
+      tags: ['dock', 'dockutil']
+
     - include_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 
