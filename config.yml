@@ -81,6 +81,7 @@ homebrew_cask_apps:
   # - blender
   - dropbox
   - iterative/homebrew-dvc/dvc
+  - postman
 
 # Atom configuration
 atom_upgrade_all: True
