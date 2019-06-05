@@ -82,6 +82,7 @@ homebrew_cask_apps:
   - dropbox
   - iterative/homebrew-dvc/dvc
   - postman
+  - adoptopenjdk
 
 # Atom configuration
 atom_upgrade_all: True
