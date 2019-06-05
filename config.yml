@@ -48,10 +48,12 @@ homebrew_installed_packages:
   - postgres
   # General Development
   - awscli
+  - cf-cli
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - cloudfoundry/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
