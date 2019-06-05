@@ -49,6 +49,8 @@ homebrew_installed_packages:
   # General Development
   - awscli
   - cf-cli
+  # Other
+  - osquery
 
 homebrew_taps:
   - homebrew/core
